@@ -1,0 +1,138 @@
+ai_feasibility,cost_of_error,data_noise,implicit_knowledge,logic,role,title,description
+95.7,1,1,1,1,dev,Code linting and formatting,"Run and fix linting issues, format code according to standards"
+95.7,1,1,1,1,dev,CODEOWNERS file creation,Setting up CODEOWNERS files for automatic PR review assignment
+95.7,1,1,1,1,dev,API documentation generation,Generating API documentation from OpenAPI specs using Swagger UI
+95.7,1,1,1,1,dev,Change log maintenance,Maintaining changelog file with version changes
+95.7,1,1,1,1,dev,Code documentation generation,Generating documentation from code comments and annotations
+95.7,1,1,1,1,dev,Git commit message validation,Implementing commit message format validation hooks
+92.1,1,1,2,1,dev|product,GitHub issue template creation,"Creating issue templates for bugs, features, and documentation"
+92.1,1,1,2,1,product|dev,GitHub project board setup,Configuring GitHub Projects for sprint tracking and backlog management
+91.4,2,1,1,1,devops,GitHub branch protection rules,Configuring branch protection rules with required reviews and status checks
+90.0,1,1,1,2,dev,Git pre-commit hooks,Writing pre-commit hooks for code quality checks
+88.6,1,1,2,1,dev,Commit message writing,Write descriptive commit messages following conventional commit format
+87.1,2,1,2,1,support,Support process documentation,Documenting support processes and procedures for internal use
+87.1,2,1,1,2,dev,Branch management,"Create, maintain, and merge feature branches following Git workflow"
+87.1,2,1,1,2,dev,API client SDK generation,Generating client SDKs from OpenAPI specifications
+87.1,2,1,1,2,qe,Test environment cleanup,Cleaning up test environments and test data
+87.1,2,1,1,2,devops,GitHub release asset management,Managing release assets and artifacts in GitHub releases
+83.6,2,1,2,2,support,Support metrics tracking,"Tracking and reporting on key support metrics (resolution time, customer satisfaction, etc.)"
+83.6,2,1,2,2,support,Support tooling configuration,"Setting up and configuring support tools (ticketing systems, knowledge bases)"
+83.6,2,1,2,2,support,Automated response configuration,Configuring automated responses for common inquiries and issues
+83.6,2,1,2,2,observability,Metrics retention policy design,Designing data retention policies for metrics with consideration for costs and utility
+83.6,2,1,2,2,observability,Grafana dashboard optimization,Optimizing Grafana dashboards for performance and usability
+83.6,2,1,2,2,observability,Alerting integration with ticketing,Integrating alerting systems with ticketing or incident management tools
+83.6,2,1,2,2,devops,Infrastructure documentation,"Document infrastructure architecture, procedures, and configurations"
+83.6,2,1,2,2,dev,Documentation writing,"Write technical documentation, API docs, and code comments"
+83.6,2,1,2,2,dev,Pull request creation,"Create detailed pull requests with description, screenshots, and test plans"
+83.6,2,1,2,2,dev,Environment configuration,"Set up development environment, configure IDE, install tools"
+83.6,2,1,2,2,qe,Bug reporting,"Document and report bugs with clear reproduction steps, expected vs actual results"
+83.6,2,1,2,2,qe,Test coverage analysis,Analyze test coverage and identify gaps in testing
+83.6,2,1,2,2,qe,Cross-browser testing,Test application compatibility across different browsers and versions
+83.6,2,1,2,2,qe,Test reporting,Generate and present test execution reports and metrics to stakeholders
+83.6,2,1,2,2,qe,Smoke testing,Perform smoke tests to verify basic functionality after deployments
+83.6,2,1,2,2,qe,Test documentation maintenance,Keep test documentation updated with latest test cases and procedures
+83.6,2,1,2,2,qe,Defect tracking,Track and manage defects through their lifecycle using issue tracking tools
+83.6,2,1,2,2,qe,Test pipeline monitoring,Monitor and analyze test pipeline execution in CI/CD
+83.6,2,1,2,2,ux,Style guide creation,"Document design standards, patterns, and guidelines"
+83.6,2,1,2,2,ux,Design handoff preparation,Prepare design specifications and assets for developer handoff
+83.6,2,1,2,2,ux,Design documentation,"Document design decisions, rationale, and guidelines"
+83.6,2,1,2,2,dev=java,JUnit test development,Writing unit tests in JUnit with mocking and assertions
+83.6,2,1,2,2,dev=typescript,Jest test development,Writing unit and integration tests using Jest for JavaScript/TypeScript
+83.6,2,1,2,2,dev=c#,xUnit test development,Creating unit tests using xUnit framework for .NET applications
+83.6,2,1,2,2,dev=elixir,ExUnit test development,Writing tests using ExUnit framework for Elixir applications
+83.6,2,1,2,2,dev=python,PyTest test development,Creating tests using PyTest with fixtures and parameterization
+83.6,2,1,2,2,dev=typescript,React component testing,Writing component tests using React Testing Library
+83.6,2,1,2,2,dev,OpenAPI specification writing,Creating OpenAPI/Swagger specifications for REST APIs
+83.6,2,1,2,2,qe|dev,Code coverage analysis,"Analyzing code coverage using tools like Istanbul, JaCoCo, or coverage.py"
+83.6,2,1,2,2,dev|devops,Static code analysis configuration,"Setting up SonarQube, ESLint, or similar static analysis tools"
+83.6,2,1,2,2,dev|devops,Docker health check implementation,Writing Docker health checks for container monitoring
+83.6,2,1,2,2,devops,GitHub Actions matrix builds,Configuring matrix builds for multiple environments in GitHub Actions
+83.6,2,1,2,2,dev|devops,Semantic versioning implementation,Implementing semantic versioning for releases and APIs
+83.6,2,1,2,2,dev|product,Feature flag configuration,Setting up feature flags using LaunchDarkly or similar tools
+83.6,2,1,2,2,dev|devops,Error tracking setup,Implementing error tracking with Sentry or similar services
+83.6,2,1,2,2,dev,Service health endpoint implementation,Creating health check endpoints for services with dependency checks
+83.6,2,1,2,2,dev,Logging strategy implementation,Implementing structured logging with proper log levels and context
+83.6,2,1,2,2,product|dev,Release notes writing,Writing release notes for product releases
+83.6,2,1,2,2,dev|qe,API mock server setup,Setting up mock servers for API development and testing
+83.6,2,1,2,2,dev,Developer onboarding documentation,Creating and maintaining developer onboarding materials
+83.6,2,1,2,2,dev=typescript,TypeScript type definition creation,"Writing TypeScript interfaces, types, and type guards"
+83.6,2,1,2,2,dev=python,Python type hint annotations,Adding type hints and mypy validation for Python code
+83.6,2,1,2,2,dev=c#,C# nullable reference types,Implementing nullable reference types in C# code
+83.6,2,1,2,2,dev=elixir,Elixir type specifications,Writing @spec and @type definitions for Elixir functions
+83.6,2,1,2,2,dev=golang,Go interfaces definition,Defining interfaces and implementing them in Go
+83.6,3,1,2,1,dev|devops,Database connection string configuration,Setting up secure database connection strings with SSL
+83.6,2,1,2,2,devops,GitHub webhook configuration,Setting up GitHub webhooks for CI/CD integration
+83.6,2,1,2,2,devops,GitHub Action cache configuration,Configuring caching for GitHub Actions workflows
+83.6,2,1,2,2,dev,API rate limit response handling,Implementing proper response codes for rate-limited requests
+83.6,2,1,2,2,dev,REST API pagination implementation,Implementing cursor-based or offset pagination for APIs
+83.6,2,1,2,2,dev,Feature toggle implementation,Implementing feature toggles with user targeting
+82.9,2,2,2,1,support,Feature request collection,Gathering and documenting customer feature requests for product team
+82.9,1,2,3,1,product|dev,Daily standup facilitation,Running daily standup meetings and tracking blockers
+80.7,2,1,3,2,dev,PR review checklist creation,Developing comprehensive PR review checklists for code quality
+80.7,2,1,3,2,dev,Code review guidelines creation,Creating and maintaining code review guidelines
+80.0,2,2,2,2,support,First-level support response,Responding to initial customer inquiries following support scripts and guidelines
+80.0,2,2,2,2,support,Knowledge base maintenance,"Reviewing, updating, and improving existing knowledge base articles"
+80.0,2,2,2,2,support,Customer data collection,"Collecting necessary data (logs, configurations) from customers for issue diagnosis"
+80.0,2,2,2,2,support,Customer satisfaction surveying,Implementing and analyzing customer satisfaction surveys
+80.0,2,2,2,2,support,Ticket categorization and tagging,Implementing consistent ticket categorization and tagging for analysis
+80.0,2,1,2,3,observability,Synthetic monitoring setup,Setting up synthetic monitoring to simulate user interactions
+80.0,2,2,2,2,qe,Test data preparation,Create and maintain test data sets for various testing scenarios
+80.0,2,1,2,3,dev|devops,Metrics collection implementation,Implementing application metrics using Prometheus client libraries
+80.0,2,1,2,3,devops,Docker multi-stage builds,Creating optimized Docker images using multi-stage builds
+80.0,2,1,2,3,qe,Cypress test writing,Writing end-to-end tests using Cypress with custom commands and fixtures
+80.0,2,1,2,3,qe,Playwright test automation,Developing automated tests using Playwright for cross-browser testing
+80.0,2,2,2,2,dev|devops,Cache hit ratio monitoring,Monitoring cache hit/miss ratios and optimizing cache strategy
+80.0,2,2,2,2,dev|devops,API analytics dashboard creation,Creating dashboards to track API usage and performance
+80.0,1,2,3,2,dev|product,Technical blog post writing,Writing technical blog posts about product features
+79.3,3,1,2,2,dev,Dependency management,"Manage project dependencies, update packages, resolve conflicts"
+78.6,3,1,2,2,support,User account management,"Managing customer user accounts, permissions, and access"
+78.6,3,1,2,2,support,SLA monitoring and management,Tracking support SLAs and ensuring compliance with response time commitments
+78.6,3,1,2,2,observability,Log retention policy design,Designing data retention policies for logs with consideration for compliance
+78.6,3,1,2,2,observability,Health check endpoint design,Designing comprehensive health check endpoints for services
+78.6,3,1,2,2,observability,Cloud provider monitoring integration,Integrating cloud provider monitoring with central observability platform
+78.6,3,1,2,2,devops|dev,Dependency vulnerability scanning,"Using tools like Snyk, OWASP Dependency-Check for security scanning"
+78.6,3,1,2,2,devops,Kubernetes resource quotas,Setting resource quotas and limits for namespaces and pods
+78.6,3,1,2,2,dev,CORS configuration,Configuring Cross-Origin Resource Sharing policies
+78.6,3,1,2,2,devops,SSL certificate renewal automation,Automating SSL certificate renewal with Let's Encrypt
+78.6,3,1,2,2,dev|devops,Dependency license compliance check,Checking dependencies for license compatibility
+78.6,3,1,2,2,devops,Error rate monitoring,Monitoring application error rates and setting alerts
+78.6,3,1,2,2,devops,Application performance monitoring setup,Setting up APM tools like New Relic or Datadog
+78.6,3,1,2,2,devops,Redis persistence configuration,Configuring Redis persistence with RDB and AOF
+78.6,3,1,2,2,devops,Kafka retention policy configuration,Setting up topic retention policies and compaction
+78.6,3,1,2,2,dev|devops,Kubernetes liveness probes,Implementing liveness probes for Kubernetes pods
+78.6,3,1,2,2,dev|devops,Kubernetes readiness probes,Implementing readiness probes for application readiness
+78.6,3,1,2,2,dev|devops,Kubernetes startup probes,Implementing startup probes for slow-starting applications
+78.6,3,1,2,2,dev|devops,Content Security Policy configuration,Setting up CSP headers for web applications
+78.6,3,1,2,2,dev|devops,HTTP security headers configuration,"Configuring security headers like HSTS, X-Frame-Options"
+76.4,2,2,3,2,support,Support ticket management,"Managing, categorizing, and prioritizing incoming customer support tickets"
+76.4,2,2,3,2,support,Knowledge base article creation,"Creating clear, concise knowledge base articles documenting common issues and solutions"
+76.4,2,2,3,2,support,Support script development,Creating scripts or templates for handling common support scenarios
+76.4,2,2,3,2,support,Customer training delivery,Conducting training sessions to help customers use the product effectively
+76.4,2,2,3,2,support,Training materials development,"Creating documentation, videos, and other training materials for customers"
+76.4,2,2,3,2,support,Bug reporting and documentation,Documenting confirmed bugs with clear reproduction steps for development team
+76.4,2,2,3,2,support,Solution database maintenance,Maintaining a database of known issues and solutions
+76.4,2,2,3,2,support,Customer-facing documentation review,Reviewing and suggesting improvements to customer-facing documentation
+76.4,2,2,2,3,observability,Log parsing and structuring,Creating parsers for unstructured logs and converting to structured format
+76.4,2,2,3,2,observability,Custom dashboard creation,Creating informative dashboards for different services and team needs
+76.4,2,2,3,2,dev,Technical debt tracking,"Identify, document, and prioritize technical debt issues"
+76.4,2,2,3,2,qe,Manual test execution,Execute manual test cases and document results
+76.4,2,2,3,2,qe,Test plan creation,"Create comprehensive test plans outlining scope, approach, and resources"
+76.4,2,2,3,2,qe,Test estimation,Estimate testing effort and duration for sprint planning
+76.4,2,2,3,2,qe,Test tool selection,Evaluate and select appropriate testing tools for project needs
+76.4,2,2,3,2,qe,Acceptance criteria validation,Validate acceptance criteria in user stories before development begins
+76.4,2,2,3,2,ux,Wireframe creation,Create low-fidelity wireframes to outline basic structure and layout
+76.4,2,2,3,2,ux,Icon design,Create custom icons and iconography systems
+76.4,2,2,3,2,ux,Design QA,Review implemented designs for consistency with design specifications
+76.4,2,2,3,2,ux,Heuristic evaluation,Evaluate interfaces against usability heuristics and best practices
+76.4,2,2,3,2,ux,Microcopy writing,"Write UI copy, error messages, and instructional text"
+76.4,2,2,3,2,devops,Grafana dashboard creation,Creating monitoring dashboards in Grafana with custom panels and alerts
+76.4,2,2,3,2,dev|devops,Git branching strategy definition,"Creating branching strategies like GitFlow, trunk-based development"
+76.4,2,2,3,2,devops,Infrastructure monitoring dashboard,Creating infrastructure monitoring dashboards with metrics and alerts
+76.4,2,2,3,2,product|dev,Sprint demo preparation,Preparing and presenting sprint demos to stakeholders
+76.4,2,2,3,2,dev,Technical documentation review,Reviewing and updating technical documentation for accuracy
+76.4,2,2,3,2,devops|dev,Incident postmortem writing,Writing detailed postmortems for production incidents
+76.4,2,2,3,2,dev,Technical spike planning,Planning and executing technical spikes for investigation
+76.4,2,2,3,2,devops,Infrastructure diagram creation,Creating and maintaining infrastructure architecture diagrams
+75.7,3,1,3,2,observability,On-call documentation preparation,Preparing comprehensive on-call documentation and playbooks
+75.7,2,2,3,2,product,Backlog grooming,"Regularly review and refine product backlog items, ensuring they are ready for development"
+75.7,3,2,2,2,devops,On-call rotation management,Managing on-call schedules and escalation procedures
