@@ -1,0 +1,397 @@
+ai_feasibility,cost_of_error,data_noise,description,implicit_knowledge,logic,role,title
+76.4,2,2,"Managing, categorizing, and prioritizing incoming customer support tickets",3,2,support,Support ticket management
+57.1,3,3,"Diagnosing customer issues by reviewing logs, configurations, and system state",4,3,support,Customer issue diagnosis
+80.0,2,2,Responding to initial customer inquiries following support scripts and guidelines,2,2,support,First-level support response
+57.1,3,3,Providing in-depth technical support for complex issues,4,3,support,Second-level technical support
+72.1,2,2,Reproducing customer-reported issues in test or staging environments,3,3,support,Issue reproduction
+57.1,3,3,Analyzing customer environment specifics and configuration,4,3,support,Customer environment analysis
+72.1,3,2,"Escalating support cases to appropriate teams (dev, ops, product) when necessary",3,2,support,Escalation management
+76.4,2,2,"Creating clear, concise knowledge base articles documenting common issues and solutions",3,2,support,Knowledge base article creation
+80.0,2,2,"Reviewing, updating, and improving existing knowledge base articles",2,2,support,Knowledge base maintenance
+76.4,2,2,Creating scripts or templates for handling common support scenarios,3,2,support,Support script development
+72.1,3,2,"Maintaining clear, professional communication with customers throughout issue resolution",3,2,support,Customer communication
+83.6,2,1,"Tracking and reporting on key support metrics (resolution time, customer satisfaction, etc.)",2,2,support,Support metrics tracking
+76.4,2,2,Conducting training sessions to help customers use the product effectively,3,2,support,Customer training delivery
+76.4,2,2,"Creating documentation, videos, and other training materials for customers",3,2,support,Training materials development
+76.4,2,2,Documenting confirmed bugs with clear reproduction steps for development team,3,2,support,Bug reporting and documentation
+82.9,2,2,Gathering and documenting customer feature requests for product team,2,1,support,Feature request collection
+80.0,2,2,"Collecting necessary data (logs, configurations) from customers for issue diagnosis",2,2,support,Customer data collection
+67.9,3,2,Creating test environments that match customer configurations for testing,3,3,support,Customer environment replication
+83.6,2,1,"Setting up and configuring support tools (ticketing systems, knowledge bases)",2,2,support,Support tooling configuration
+67.9,3,3,Monitoring customer health metrics and identifying at-risk customers,3,2,support,Customer success tracking
+87.1,2,1,Documenting support processes and procedures for internal use,2,1,support,Support process documentation
+72.1,3,2,Providing dedicated support during customer onboarding process,3,2,support,Customer onboarding support
+72.1,3,2,Communicating with affected customers after incidents or outages,3,2,support,Post-incident customer communication
+72.9,2,3,Collecting and synthesizing customer feedback for product improvements,3,2,support,Product feedback aggregation
+78.6,3,1,"Managing customer user accounts, permissions, and access",2,2,support,User account management
+83.6,2,1,Configuring automated responses for common inquiries and issues,2,2,support,Automated response configuration
+78.6,3,1,Tracking support SLAs and ensuring compliance with response time commitments,2,2,support,SLA monitoring and management
+80.0,2,2,Implementing and analyzing customer satisfaction surveys,2,2,support,Customer satisfaction surveying
+80.0,2,2,Implementing consistent ticket categorization and tagging for analysis,2,2,support,Ticket categorization and tagging
+76.4,2,2,Maintaining a database of known issues and solutions,3,2,support,Solution database maintenance
+76.4,2,2,Reviewing and suggesting improvements to customer-facing documentation,3,2,support,Customer-facing documentation review
+51.4,4,2,Designing the overall monitoring architecture with multiple tools and data sources,4,3,observability,Monitoring stack architecture design
+67.9,3,2,Developing a comprehensive strategy for metrics collection across the platform,3,3,observability,Metrics collection strategy
+67.9,3,2,Designing the end-to-end logging pipeline from application to storage and analysis,3,3,observability,Logging pipeline design
+67.9,3,2,Implementing distributed tracing across microservices with OpenTelemetry or similar,3,3,observability,Distributed tracing implementation
+67.9,3,2,Creating effective alerting rules with appropriate thresholds and conditions,3,3,observability,Alert rule creation
+57.1,3,3,Implementing strategies to reduce alert fatigue and increase signal-to-noise ratio,4,3,observability,Alert fatigue reduction
+67.9,3,2,Defining and implementing Service Level Indicators for critical services,3,3,observability,SLI definition and implementation
+72.1,3,2,Defining Service Level Objectives and tracking compliance,3,2,observability,SLO definition and tracking
+60.0,3,2,Implementing and managing error budgets for services,4,3,observability,Error budget management
+75.0,3,1,"Implementing log aggregation across services using ELK, Loki, or similar tools",2,3,observability,Log aggregation implementation
+76.4,2,2,Creating parsers for unstructured logs and converting to structured format,2,3,observability,Log parsing and structuring
+83.6,2,1,Designing data retention policies for metrics with consideration for costs and utility,2,2,observability,Metrics retention policy design
+78.6,3,1,Designing data retention policies for logs with consideration for compliance,2,2,observability,Log retention policy design
+76.4,2,2,Creating informative dashboards for different services and team needs,3,2,observability,Custom dashboard creation
+80.0,2,1,Setting up synthetic monitoring to simulate user interactions,2,3,observability,Synthetic monitoring setup
+67.9,3,2,Implementing real user monitoring for frontend performance tracking,3,3,observability,Real user monitoring implementation
+58.6,3,3,Configuring anomaly detection systems to identify unusual patterns,3,4,observability,Anomaly detection configuration
+67.9,3,2,Scaling observability data pipelines to handle increasing volume,3,3,observability,Observability data pipeline scaling
+72.1,2,2,Optimizing costs of monitoring and observability infrastructure,3,3,observability,Cost optimization for observability
+67.9,3,2,Optimizing PromQL queries for performance and accuracy,3,3,observability,Prometheus query optimization
+83.6,2,1,Optimizing Grafana dashboards for performance and usability,2,2,observability,Grafana dashboard optimization
+72.1,2,2,Developing expertise in log query languages like LogQL or Elasticsearch DSL,3,3,observability,Log query language expertise
+58.6,3,3,Automating incident detection with correlation across multiple signals,3,4,observability,Incident detection automation
+67.9,3,2,Mapping service dependencies for improved troubleshooting,3,3,observability,Service dependency mapping
+75.0,3,1,Implementing correlation IDs across distributed system components,2,3,observability,Correlation ID implementation
+78.6,3,1,Designing comprehensive health check endpoints for services,2,2,observability,Health check endpoint design
+67.9,3,2,Setting up monitoring for database query performance,3,3,observability,Database query performance monitoring
+67.9,3,2,Identifying and tracking metrics needed for capacity planning,3,3,observability,Capacity planning metrics
+83.6,2,1,Integrating alerting systems with ticketing or incident management tools,2,2,observability,Alerting integration with ticketing
+75.7,3,1,Preparing comprehensive on-call documentation and playbooks,3,2,observability,On-call documentation preparation
+78.6,3,1,Integrating cloud provider monitoring with central observability platform,2,2,observability,Cloud provider monitoring integration
+67.9,3,2,Developing custom exporters for metrics from proprietary systems,3,3,observability,Custom exporter development
+70.7,3,1,Implementing observability configurations as code for version control,3,3,observability,Observability as code implementation
+65.7,4,1,Implementing audit logging for security and compliance requirements,3,3,observability,Audit logging implementation
+67.9,3,2,Developing an appropriate sampling strategy for distributed traces,3,3,observability,Trace sampling strategy
+57.1,3,3,Analyzing metrics and logs post-incident for root cause analysis,4,3,observability,Post-incident metrics analysis
+67.9,3,2,Managing high cardinality metrics to control storage costs,3,3,observability,High cardinality metrics management
+60.0,4,2,Set up and maintain CI/CD pipelines using GitHub Actions,3,3,devops,CI/CD pipeline configuration
+40.0,5,2,Manage and maintain Kubernetes clusters for application deployment,4,4,devops,Kubernetes cluster management
+62.9,4,1,"Write and maintain IaC scripts using Terraform, CloudFormation, or similar tools",3,3,devops,Infrastructure as Code development
+75.0,3,1,Create and optimize Docker container images for applications,2,3,devops,Container image creation
+48.6,5,2,Implement and manage secrets using tools like HashiCorp Vault or AWS Secrets Manager,3,3,devops,Secrets management
+67.9,3,2,"Set up monitoring and alerting using Prometheus, Grafana, or similar tools",3,3,devops,Monitoring setup
+71.4,3,2,Configure centralized logging using ELK stack or similar solutions,2,3,devops,Log aggregation configuration
+60.0,4,2,Implement auto-scaling for applications based on load metrics,3,3,devops,Infrastructure scaling
+48.6,5,2,Implement backup strategies and disaster recovery procedures,3,3,devops,Backup and disaster recovery
+60.0,4,2,"Configure network settings, VPCs, security groups, and load balancers",3,3,devops,Network configuration
+72.9,4,1,"Manage SSL/TLS certificates, renewal processes, and HTTPS configuration",2,2,devops,SSL/TLS certificate management
+40.0,5,2,"Manage database instances, replication, and performance tuning",4,4,devops,Database administration
+44.3,5,2,Implement security best practices for infrastructure and applications,4,3,devops,Security hardening
+67.9,3,2,Analyze and optimize cloud infrastructure costs,3,3,devops,Cost optimization
+60.0,4,2,"Manage application releases, versioning, and deployment strategies",3,3,devops,Release management
+67.9,3,2,Monitor application and infrastructure performance metrics,3,3,devops,Performance monitoring
+37.1,5,3,Respond to production incidents and perform root cause analysis,4,4,devops,Incident response
+55.7,4,2,Configure and manage container orchestration with Kubernetes,3,4,devops,Container orchestration
+60.0,4,2,Implement blue-green deployment strategies for zero-downtime releases,3,3,devops,Blue-green deployment setup
+55.7,4,2,"Configure service mesh (Istio, Linkerd) for microservices communication",3,4,devops,Service mesh configuration
+71.4,3,2,Set up and optimize caching layers using Redis or Memcached,2,3,devops,Cache configuration
+60.0,4,2,Deploy and manage message queues like RabbitMQ or Kafka,3,3,devops,Message queue management
+83.6,2,1,"Document infrastructure architecture, procedures, and configurations",2,2,devops,Infrastructure documentation
+60.0,4,2,"Ensure infrastructure meets compliance requirements (GDPR, HIPAA, etc.)",3,3,devops,Compliance configuration
+48.6,5,2,"Manage IAM roles, permissions, and access controls",3,3,devops,Access control management
+64.3,3,3,Plan infrastructure capacity based on growth projections,3,3,devops,Capacity planning
+72.9,4,1,Apply security patches and updates to infrastructure components,2,2,devops,Patch management
+75.0,3,1,"Provision development, staging, and production environments",2,3,devops,Environment provisioning
+60.0,4,2,Automate deployment processes across environments,3,3,devops,Deployment automation
+60.0,4,2,Test disaster recovery procedures regularly,3,3,devops,Disaster recovery testing
+55.7,4,2,Write production code to implement features according to specifications,3,4,dev,Code implementation
+75.0,3,1,Write unit tests for individual functions/methods to ensure code correctness,2,3,dev,Unit test development
+60.0,3,2,"Review peer code for quality, performance, security, and adherence to standards",4,3,dev,Code review
+87.1,2,1,"Create, maintain, and merge feature branches following Git workflow",1,2,dev,Branch management
+88.6,1,1,Write descriptive commit messages following conventional commit format,2,1,dev,Commit message writing
+60.0,4,2,Design and implement RESTful or GraphQL API endpoints,3,3,dev,API endpoint implementation
+40.0,5,2,"Design and implement database schemas, tables, and relationships",4,4,dev,Database schema design
+67.9,3,2,Improve code structure and readability without changing functionality,3,3,dev,Code refactoring
+47.9,4,3,Diagnose and fix software bugs reported by QE or users,4,4,dev,Bug fixing
+67.9,3,2,Write integration tests to verify component interactions,3,3,dev,Integration test development
+47.9,4,3,Optimize code for better performance and resource utilization,4,4,dev,Performance optimization
+79.3,3,1,"Manage project dependencies, update packages, resolve conflicts",2,2,dev,Dependency management
+83.6,2,1,"Write technical documentation, API docs, and code comments",2,2,dev,Documentation writing
+40.0,5,2,"Implement security measures, authentication, and authorization",4,4,dev,Security implementation
+95.7,1,1,"Run and fix linting issues, format code according to standards",1,1,dev,Code linting and formatting
+83.6,2,1,"Create detailed pull requests with description, screenshots, and test plans",2,2,dev,Pull request creation
+83.6,2,1,"Set up development environment, configure IDE, install tools",2,2,dev,Environment configuration
+60.0,4,2,Write and test database migration scripts for schema changes,3,3,dev,Database migration scripts
+76.4,2,2,"Identify, document, and prioritize technical debt issues",3,2,dev,Technical debt tracking
+67.9,3,2,Implement caching strategies using Redis for performance improvement,3,3,dev,Caching implementation
+55.7,4,2,Implement event streaming using Kafka or RabbitMQ for asynchronous processing,3,4,dev,Event streaming implementation
+67.9,3,2,Implement comprehensive error handling and logging mechanisms,3,3,dev,Error handling implementation
+67.9,3,2,Build reusable UI components using React/Vue/Angular,3,3,dev=typescript,Front-end component development
+55.7,4,2,Develop backend services and microservices,3,4,dev,Backend service development
+67.9,3,2,Design and implement GraphQL schemas and resolvers,3,3,dev,GraphQL schema development
+72.1,2,2,Profile code to identify performance bottlenecks and memory leaks,3,3,dev,Code profiling
+75.0,3,1,Implement accessibility features following WCAG guidelines,3,2,dev,Accessibility implementation
+71.4,3,2,Implement internationalization (i18n) support for multiple languages,2,3,dev,Internationalization implementation
+75.0,3,1,Implement feature flags for controlled feature rollout,2,3,dev,Feature flag implementation
+60.0,4,2,Implement data validation for input sanitization and business rules,3,3,dev,Data validation implementation
+67.9,3,2,Design comprehensive test cases covering functional and non-functional requirements,3,3,qe,Test case design
+75.0,3,1,"Develop automated tests using frameworks like Selenium, Cypress, or Playwright",2,3,qe,Test automation development
+76.4,2,2,Execute manual test cases and document results,3,2,qe,Manual test execution
+83.6,2,1,"Document and report bugs with clear reproduction steps, expected vs actual results",2,2,qe,Bug reporting
+80.0,2,2,Create and maintain test data sets for various testing scenarios,2,2,qe,Test data preparation
+67.9,3,2,Update and maintain regression test suites as features evolve,3,3,qe,Regression test suite maintenance
+51.4,4,3,Design and execute performance tests using tools like JMeter or k6,3,4,qe,Performance testing
+37.1,5,3,Perform security testing including vulnerability scans and penetration testing,4,4,qe,Security testing
+75.0,3,1,Test RESTful and GraphQL APIs using tools like Postman or RestAssured,2,3,qe,API testing
+76.4,2,2,"Create comprehensive test plans outlining scope, approach, and resources",3,2,qe,Test plan creation
+75.0,3,1,Integrate automated tests into CI/CD pipelines using GitHub Actions,2,3,qe,CI/CD test integration
+83.6,2,1,Analyze test coverage and identify gaps in testing,2,2,qe,Test coverage analysis
+51.4,4,3,Design and execute load tests to verify system scalability,3,4,qe,Load testing
+75.0,3,1,Test application for accessibility compliance (WCAG standards),3,2,qe,Accessibility testing
+67.9,3,2,Test applications on various mobile devices and emulators,3,3,qe,Mobile testing
+83.6,2,1,Test application compatibility across different browsers and versions,2,2,qe,Cross-browser testing
+71.4,3,2,Set up and maintain test environments with required configurations,2,3,qe,Test environment setup
+83.6,2,1,Generate and present test execution reports and metrics to stakeholders,2,2,qe,Test reporting
+57.1,3,3,Conduct usability tests to evaluate user experience and interface design,4,3,qe,Usability testing
+67.9,3,2,"Test database operations, integrity, and data validation",3,3,qe,Database testing
+67.9,3,2,Test integration points between different system components,3,3,qe,Integration testing
+83.6,2,1,Perform smoke tests to verify basic functionality after deployments,2,2,qe,Smoke testing
+83.6,2,1,Keep test documentation updated with latest test cases and procedures,2,2,qe,Test documentation maintenance
+83.6,2,1,Track and manage defects through their lifecycle using issue tracking tools,2,2,qe,Defect tracking
+76.4,2,2,Estimate testing effort and duration for sprint planning,3,2,qe,Test estimation
+57.1,3,3,Identify and assess testing risks and plan mitigation strategies,4,3,qe,Risk assessment
+76.4,2,2,Evaluate and select appropriate testing tools for project needs,3,2,qe,Test tool selection
+76.4,2,2,Validate acceptance criteria in user stories before development begins,3,2,qe,Acceptance criteria validation
+83.6,2,1,Monitor and analyze test pipeline execution in CI/CD,2,2,qe,Test pipeline monitoring
+57.1,3,3,Perform unstructured testing to discover unexpected issues,4,3,qe,Exploratory testing
+57.1,3,3,Plan and design user research studies to understand user needs and behaviors,4,3,ux,User research planning
+48.6,2,4,Conduct one-on-one interviews with users to gather qualitative insights,5,3,ux,User interviews
+76.4,2,2,Create low-fidelity wireframes to outline basic structure and layout,3,2,ux,Wireframe creation
+60.0,3,2,Design detailed visual mockups with final UI elements and styling,4,3,ux,High-fidelity mockup design
+72.1,2,2,Create clickable prototypes to demonstrate user flows and interactions,3,3,ux,Interactive prototype development
+60.0,3,2,Map user journeys and flows through the application,4,3,ux,User flow mapping
+60.0,3,2,Organize and structure content and navigation systems,4,3,ux,Information architecture design
+57.1,3,3,Conduct usability tests with users to identify interface issues,4,3,ux,Usability testing
+67.9,3,2,Create and maintain design system with reusable components and patterns,3,3,ux,Design system development
+75.0,3,1,Ensure designs meet accessibility standards (WCAG guidelines),3,2,ux,Accessibility design
+65.7,2,2,"Design micro-interactions, animations, and transitions",4,3,ux,Interaction design
+70.0,2,2,"Create visual designs including color schemes, typography, and imagery",4,2,ux,Visual design
+67.9,3,2,Design interfaces that adapt to different screen sizes and devices,3,3,ux,Responsive design
+83.6,2,1,"Document design standards, patterns, and guidelines",2,2,ux,Style guide creation
+57.1,3,3,Create detailed user personas based on research data,4,3,ux,User persona development
+57.1,3,3,Create detailed user journey maps across touchpoints,4,3,ux,Journey mapping
+72.9,2,3,Analyze competitor interfaces and user experiences,3,2,ux,Competitive analysis
+70.0,2,2,Lead design review sessions with stakeholders and development team,4,2,ux,Design review facilitation
+83.6,2,1,Prepare design specifications and assets for developer handoff,2,2,ux,Design handoff preparation
+76.4,2,2,Create custom icons and iconography systems,3,2,ux,Icon design
+67.9,3,2,"Design charts, graphs, and data visualizations",3,3,ux,Data visualization design
+72.1,3,2,Design user-friendly forms with proper validation and error handling,3,2,ux,Form design
+67.9,3,2,Design intuitive navigation systems and menus,3,3,ux,Navigation design
+76.4,2,2,Review implemented designs for consistency with design specifications,3,2,ux,Design QA
+67.9,3,2,Design variations for A/B testing to optimize user experience,3,3,ux,A/B test design
+76.4,2,2,Evaluate interfaces against usability heuristics and best practices,3,2,ux,Heuristic evaluation
+57.1,3,3,Analyze user feedback and translate into design improvements,4,3,ux,User feedback analysis
+76.4,2,2,"Write UI copy, error messages, and instructional text",3,2,ux,Microcopy writing
+83.6,2,1,"Document design decisions, rationale, and guidelines",2,2,ux,Design documentation
+72.9,2,3,Conduct card sorting exercises to optimize information architecture,3,2,ux,Card sorting studies
+55.0,3,4,"Gather and analyze market trends, competitor features, and industry developments",4,3,product,Market research and competitor analysis
+43.6,4,3,"Conduct customer interviews, surveys, and analyze feedback to identify pain points and needs",5,4,product,Customer need identification
+71.4,3,2,"Write detailed user stories with acceptance criteria following the format: As a [user], I want [feature] so that [benefit]",3,2,product,User story creation
+47.9,4,3,Create and maintain product roadmap aligning business goals with customer needs and technical capabilities,4,4,product,Product roadmap planning
+60.0,3,2,Prioritize user stories and tasks for upcoming sprints using frameworks like RICE or MoSCoW,4,3,product,Sprint backlog prioritization
+53.6,3,3,"Present product updates, gather feedback from executives and stakeholders, manage expectations",5,3,product,Stakeholder communication
+67.9,3,2,Create detailed PRDs (Product Requirement Documents) with functional and non-functional requirements,3,3,product,Feature specification documentation
+51.4,4,3,"Define release scope, timeline, and go-to-market strategy for product launches",4,3,product,Release planning
+60.0,3,2,"Lead sprint planning meetings, ensure team understands goals and priorities",4,3,product,Sprint planning facilitation
+57.1,3,3,"Define and track KPIs, OKRs, and success metrics for features and releases",4,3,product,Success metrics definition
+52.9,3,4,"Analyze user feedback, support tickets, and usage data to inform product decisions",4,3,product,User feedback analysis
+60.0,3,2,"Create and maintain feature prioritization matrix considering impact, effort, and strategic alignment",4,3,product,Feature prioritization matrix
+43.6,4,3,Define and communicate long-term product vision and strategy to team and stakeholders,5,4,product,Product vision articulation
+75.7,2,2,"Regularly review and refine product backlog items, ensuring they are ready for development",3,2,product,Backlog grooming
+67.9,3,2,Break down large epics into manageable user stories and tasks,3,3,product,Epic story breakdown
+64.3,3,3,Design and plan A/B tests for feature validation and optimization,3,3,product,A/B testing planning
+57.1,3,3,Create and maintain detailed user personas based on research and customer data,4,3,product,User persona development
+71.4,3,2,Define analytics requirements and work with dev team to implement tracking,3,2,product,Product analytics setup
+57.1,3,3,Map end-to-end customer journeys to identify pain points and opportunities,4,3,product,Customer journey mapping
+67.9,3,2,Define strategy for feature flags including rollout plans and target audiences,3,3,product,Feature flag strategy definition
+40.0,5,2,"Creating PostgreSQL schemas, defining tables, columns, constraints, and indexes",4,4,dev,PostgreSQL schema design
+55.7,3,2,"Optimizing SQL queries, creating indexes, analyzing query plans with EXPLAIN",4,4,dev|devops,Database query optimization
+67.9,3,2,"Optimizing Ecto queries for Elixir, implementing preloading, avoiding N+1 queries",3,3,dev=elixir,Ecto query optimization
+67.9,3,2,"Optimizing Django ORM queries, using select_related and prefetch_related",3,3,dev=python,Django ORM optimization
+67.9,3,2,"Optimizing EF Core queries, implementing eager loading, query filters",3,3,dev=c#,Entity Framework optimization
+80.0,2,1,Implementing application metrics using Prometheus client libraries,2,3,dev|devops,Metrics collection implementation
+67.9,3,2,Implementing OpenTelemetry for distributed tracing and metrics,3,3,dev|devops,Telemetry integration
+76.4,2,2,Creating monitoring dashboards in Grafana with custom panels and alerts,3,2,devops,Grafana dashboard creation
+67.9,3,2,Writing Prometheus alerting rules and configuring Alertmanager,3,3,devops,Prometheus alert rules
+67.9,3,2,"Configuring Redis for caching, session storage, and pub/sub messaging",3,3,devops,Redis configuration
+67.9,3,2,"Setting up RabbitMQ exchanges, queues, bindings, and dead letter queues",3,3,devops,RabbitMQ queue configuration
+60.0,4,2,"Creating and configuring Kafka topics, partitions, and replication",3,3,devops,Kafka topic configuration
+62.9,4,1,"Writing Kubernetes deployments, services, configmaps, and secrets",3,3,devops,Kubernetes manifest creation
+70.7,3,1,Creating Helm charts for application deployment on Kubernetes,3,3,devops,Helm chart development
+75.0,3,1,Writing CI/CD workflows for GitHub Actions with jobs and steps,2,3,devops,GitHub Actions workflow creation
+80.0,2,1,Creating optimized Docker images using multi-stage builds,2,3,devops,Docker multi-stage builds
+75.0,3,1,Defining gRPC services and messages in protobuf files,2,3,dev,gRPC service definition
+67.9,3,2,Implementing GraphQL resolvers with proper error handling and performance,3,3,dev,GraphQL resolver implementation
+80.0,2,1,Writing end-to-end tests using Cypress with custom commands and fixtures,2,3,qe,Cypress test writing
+80.0,2,1,Developing automated tests using Playwright for cross-browser testing,2,3,qe,Playwright test automation
+83.6,2,1,Writing unit tests in JUnit with mocking and assertions,2,2,dev=java,JUnit test development
+83.6,2,1,Writing unit and integration tests using Jest for JavaScript/TypeScript,2,2,dev=typescript,Jest test development
+83.6,2,1,Creating unit tests using xUnit framework for .NET applications,2,2,dev=c#,xUnit test development
+83.6,2,1,Writing tests using ExUnit framework for Elixir applications,2,2,dev=elixir,ExUnit test development
+83.6,2,1,Creating tests using PyTest with fixtures and parameterization,2,2,dev=python,PyTest test development
+62.9,4,1,Developing reusable Terraform modules for infrastructure provisioning,3,3,devops,Terraform module creation
+62.9,4,1,Writing infrastructure as code using AWS CDK in TypeScript/Python,3,3,devops,AWS CDK implementation
+83.6,2,1,Writing component tests using React Testing Library,2,2,dev=typescript,React component testing
+67.9,3,2,Implementing contract tests using Pact or Spring Cloud Contract,3,3,qe,API contract testing
+67.9,3,2,Creating load test scripts using k6 or Gatling,3,3,qe,Load test script development
+60.0,4,2,"Writing database migrations using Alembic, Flyway, or EF Core migrations",3,3,dev,Database migration creation
+83.6,2,1,Creating OpenAPI/Swagger specifications for REST APIs,2,2,dev,OpenAPI specification writing
+55.7,4,2,"Configuring Istio virtual services, destination rules, and gateways",3,4,devops,Service mesh routing configuration
+60.0,4,2,Implementing canary deployments with progressive traffic shifting,3,3,devops,Canary deployment setup
+67.9,3,2,Setting up chaos experiments using tools like Chaos Monkey or Litmus,3,3,devops,Chaos engineering implementation
+72.1,2,2,"Using profiling tools like pprof, dotTrace, or Chrome DevTools",3,3,dev,Performance profiling
+51.4,3,3,Identifying and fixing memory leaks using language-specific tools,4,4,dev,Memory leak detection
+83.6,2,1,"Analyzing code coverage using tools like Istanbul, JaCoCo, or coverage.py",2,2,qe|dev,Code coverage analysis
+83.6,2,1,"Setting up SonarQube, ESLint, or similar static analysis tools",2,2,dev|devops,Static code analysis configuration
+78.6,3,1,"Using tools like Snyk, OWASP Dependency-Check for security scanning",2,2,devops|dev,Dependency vulnerability scanning
+60.0,4,2,Implementing JWT-based authentication with proper token handling,3,3,dev,JWT authentication implementation
+60.0,4,2,Implementing OAuth2 authorization flows and token management,3,3,dev,OAuth2 flow implementation
+67.9,3,2,Implementing real-time communication using WebSocket protocols,3,3,dev,WebSocket implementation
+67.9,3,2,"Setting up Elasticsearch clusters, indexes, and mappings",3,3,devops,Elasticsearch configuration
+67.9,3,2,"Configuring Elasticsearch, Logstash, and Kibana for log aggregation",3,3,devops,ELK stack monitoring setup
+67.9,3,2,"Implementing circuit breakers using Hystrix, Resilience4j, or Polly",3,3,dev,Circuit breaker implementation
+75.0,3,1,Implementing API rate limiting using middleware or API gateways,2,3,dev|devops,Rate limiting implementation
+67.9,3,2,Configuring database connection pools for optimal performance,3,3,dev|devops,Database connection pooling
+67.9,3,2,"Setting up API gateways like Kong, Ambassador, or AWS API Gateway",3,3,devops,API gateway configuration
+67.9,3,2,"Implementing service discovery using Consul, Eureka, or Kubernetes DNS",3,3,devops,Service discovery setup
+76.4,2,2,"Creating branching strategies like GitFlow, trunk-based development",3,2,dev|devops,Git branching strategy definition
+92.1,1,1,"Creating issue templates for bugs, features, and documentation",2,1,dev|product,GitHub issue template creation
+80.7,2,1,Developing comprehensive PR review checklists for code quality,3,2,dev,PR review checklist creation
+92.1,1,1,Configuring GitHub Projects for sprint tracking and backlog management,2,1,product|dev,GitHub project board setup
+72.9,4,1,Managing secrets and environment variables in GitHub Actions,2,2,devops,GitHub Actions secrets management
+47.9,4,2,Designing efficient indexes based on query patterns and EXPLAIN analysis,4,4,dev,Database index design
+47.9,4,2,Implementing table partitioning for large datasets in PostgreSQL,4,4,dev|devops,Database partitioning strategy
+67.9,3,2,Implementing cache invalidation patterns for Redis,3,3,dev,Redis cache invalidation strategy
+60.0,4,2,Configuring Kafka consumer groups with proper offset management,3,3,dev|devops,Kafka consumer group configuration
+67.9,3,2,Implementing dead letter queues and retry mechanisms in RabbitMQ,3,3,dev|devops,RabbitMQ dead letter queue setup
+60.0,4,2,Creating and enforcing pod security policies in Kubernetes,3,3,devops,Kubernetes pod security policies
+78.6,3,1,Setting resource quotas and limits for namespaces and pods,2,2,devops,Kubernetes resource quotas
+72.1,2,2,Writing recording rules for efficient Prometheus queries,3,3,devops,Prometheus recording rules
+72.1,3,2,Setting up Grafana alerts with proper thresholds and notification channels,3,2,devops,Grafana alert configuration
+83.6,2,1,Writing Docker health checks for container monitoring,2,2,dev|devops,Docker health check implementation
+91.4,2,1,Configuring branch protection rules with required reviews and status checks,1,1,devops,GitHub branch protection rules
+95.7,1,1,Setting up CODEOWNERS files for automatic PR review assignment,1,1,dev,CODEOWNERS file creation
+83.6,2,1,Configuring matrix builds for multiple environments in GitHub Actions,2,2,devops,GitHub Actions matrix builds
+83.6,2,1,Implementing semantic versioning for releases and APIs,2,2,dev|devops,Semantic versioning implementation
+72.1,3,2,Implementing API versioning using URL paths or headers,3,2,dev,API versioning strategy
+72.9,4,1,Automating PostgreSQL backups with pg_dump and retention policies,2,2,devops,Database backup automation
+83.6,2,1,Setting up feature flags using LaunchDarkly or similar tools,2,2,dev|product,Feature flag configuration
+83.6,2,1,Implementing error tracking with Sentry or similar services,2,2,dev|devops,Error tracking setup
+95.7,1,1,Generating API documentation from OpenAPI specs using Swagger UI,1,1,dev,API documentation generation
+75.0,3,1,Implementing exponential backoff for database connections,2,3,dev,Database connection retry logic
+67.9,3,2,Implementing query complexity limits for GraphQL APIs,3,3,dev,GraphQL query complexity analysis
+60.0,4,2,Setting up Redis cluster mode with sharding and replication,3,3,devops,Redis cluster configuration
+48.6,5,2,Configuring streaming replication for PostgreSQL high availability,3,3,devops,PostgreSQL replication setup
+67.9,3,2,Implementing Confluent Schema Registry for Kafka message validation,3,3,dev|devops,Kafka schema registry setup
+75.0,3,1,Implementing proper error codes and metadata in gRPC services,2,3,dev,gRPC error handling
+60.0,4,2,Implementing ACID transactions with proper isolation levels,3,3,dev,Database transaction management
+67.9,3,2,"Building data extraction, transformation, and loading pipelines",3,3,dev,ETL pipeline development
+60.0,4,2,Writing scripts to migrate data between systems or database versions,3,3,dev,Data migration script creation
+75.0,3,1,Implementing request throttling with token bucket or leaky bucket algorithms,2,3,dev,API throttling implementation
+67.9,3,2,Implementing distributed tracing with Jaeger or Zipkin,3,3,dev|devops,Distributed tracing setup
+83.6,2,1,Creating health check endpoints for services with dependency checks,2,2,dev,Service health endpoint implementation
+83.6,2,1,Implementing structured logging with proper log levels and context,2,2,dev,Logging strategy implementation
+40.0,5,2,Implementing horizontal sharding for database scalability,4,4,dev|devops,Database sharding implementation
+60.0,4,2,Implementing secure session handling with Redis or JWT,3,3,dev,Session management implementation
+78.6,3,1,Configuring Cross-Origin Resource Sharing policies,2,2,dev,CORS configuration
+67.9,3,2,"Managing WebSocket connections, reconnection logic, and heartbeat",3,3,dev,WebSocket connection management
+67.1,4,2,Testing database backup restoration procedures,2,2,devops,Database backup testing
+78.6,3,1,Automating SSL certificate renewal with Let's Encrypt,2,2,devops,SSL certificate renewal automation
+60.0,4,2,Configuring load balancers with health checks and session affinity,3,3,devops,Load balancer configuration
+76.4,2,2,Creating infrastructure monitoring dashboards with metrics and alerts,3,2,devops,Infrastructure monitoring dashboard
+67.1,2,3,Facilitating sprint retrospectives and documenting action items,4,2,product|dev,Sprint retrospective facilitation
+76.4,2,2,Preparing and presenting sprint demos to stakeholders,3,2,product|dev,Sprint demo preparation
+82.9,1,2,Running daily standup meetings and tracking blockers,3,1,product|dev,Daily standup facilitation
+76.4,2,2,Reviewing and updating technical documentation for accuracy,3,2,dev,Technical documentation review
+87.1,2,1,Generating client SDKs from OpenAPI specifications,1,2,dev,API client SDK generation
+67.1,4,2,Verifying database backups by performing test restores,2,2,devops,Database backup verification
+76.4,2,2,Writing detailed postmortems for production incidents,3,2,devops|dev,Incident postmortem writing
+72.1,3,2,Defining service level agreements and objectives,3,2,product|devops,SLA/SLO definition
+75.7,3,2,Managing on-call schedules and escalation procedures,2,2,devops,On-call rotation management
+72.1,3,2,Creating runbooks for common production issues,3,2,devops,Production runbook creation
+78.6,3,1,Checking dependencies for license compatibility,2,2,dev|devops,Dependency license compliance check
+83.6,2,1,Writing release notes for product releases,2,2,product|dev,Release notes writing
+95.7,1,1,Maintaining changelog file with version changes,1,1,dev,Change log maintenance
+72.1,3,2,Performing accessibility audits using WAVE or similar tools,3,2,qe|ux,Accessibility audit
+60.0,4,2,Running security scans using tools like OWASP ZAP or SonarQube,3,3,qe|devops,Security vulnerability scanning
+67.9,3,2,Establishing performance baselines for system components,3,3,qe|devops,Performance baseline establishment
+87.1,2,1,Cleaning up test environments and test data,1,2,qe,Test environment cleanup
+67.9,3,2,Creating reusable components for the design system,3,3,ux-dev,Design system component creation
+61.4,3,3,Coordinating work across different teams and departments,4,2,product,Cross-functional team coordination
+76.4,2,2,Planning and executing technical spikes for investigation,3,2,dev,Technical spike planning
+72.1,3,2,Planning and communicating API deprecation timelines,3,2,dev|product,API deprecation planning
+67.9,3,2,Monitoring and analyzing database index usage,3,3,dev|devops,Database index usage monitoring
+80.0,2,2,Monitoring cache hit/miss ratios and optimizing cache strategy,2,2,dev|devops,Cache hit ratio monitoring
+67.9,3,2,Analyzing and optimizing infrastructure costs,3,3,devops,Infrastructure cost analysis
+57.1,3,3,Planning team capacity and workload distribution,4,3,product,Team capacity planning
+67.9,3,3,Triaging customer support tickets and prioritizing issues,3,2,product|qe,Customer support ticket triage
+67.9,3,3,Coordinating UAT sessions with customers,3,2,product|qe,User acceptance testing coordination
+72.9,2,3,Tracking and analyzing feature adoption metrics,3,2,product,Feature adoption tracking
+95.7,1,1,Generating documentation from code comments and annotations,1,1,dev,Code documentation generation
+83.6,2,1,Setting up mock servers for API development and testing,2,2,dev|qe,API mock server setup
+76.4,2,2,Creating and maintaining infrastructure architecture diagrams,3,2,devops,Infrastructure diagram creation
+67.9,3,2,Analyzing and optimizing slow database queries,3,3,dev|devops,Database slow query analysis
+71.4,3,2,Integrating third-party services and APIs,2,3,dev,Third-party service integration
+60.0,4,2,Implementing data retention and deletion policies,3,3,dev|devops,Data retention policy implementation
+80.0,2,2,Creating dashboards to track API usage and performance,2,2,dev|devops,API analytics dashboard creation
+72.1,3,2,Documenting security practices for compliance requirements,3,2,devops,Security compliance documentation
+67.9,3,2,Automating customer onboarding processes,3,3,dev,Customer onboarding automation
+78.6,3,1,Monitoring application error rates and setting alerts,2,2,devops,Error rate monitoring
+78.6,3,1,Setting up APM tools like New Relic or Datadog,2,2,devops,Application performance monitoring setup
+60.0,4,2,Testing disaster recovery procedures and documenting results,3,3,devops,Disaster recovery testing
+80.7,2,1,Creating and maintaining code review guidelines,3,2,dev,Code review guidelines creation
+80.0,1,2,Writing technical blog posts about product features,3,2,dev|product,Technical blog post writing
+83.6,2,1,Creating and maintaining developer onboarding materials,2,2,dev,Developer onboarding documentation
+83.6,2,1,"Writing TypeScript interfaces, types, and type guards",2,2,dev=typescript,TypeScript type definition creation
+83.6,2,1,Adding type hints and mypy validation for Python code,2,2,dev=python,Python type hint annotations
+83.6,2,1,Implementing nullable reference types in C# code,2,2,dev=c#,C# nullable reference types
+83.6,2,1,Writing @spec and @type definitions for Elixir functions,2,2,dev=elixir,Elixir type specifications
+83.6,2,1,Defining interfaces and implementing them in Go,2,2,dev=golang,Go interfaces definition
+83.6,3,1,Setting up secure database connection strings with SSL,2,1,dev|devops,Database connection string configuration
+78.6,3,1,Configuring Redis persistence with RDB and AOF,2,2,devops,Redis persistence configuration
+78.6,3,1,Setting up topic retention policies and compaction,2,2,devops,Kafka retention policy configuration
+75.0,3,1,Creating and configuring exchange bindings and routing keys,2,3,dev|devops,RabbitMQ exchange binding
+78.6,3,1,Implementing liveness probes for Kubernetes pods,2,2,dev|devops,Kubernetes liveness probes
+78.6,3,1,Implementing readiness probes for application readiness,2,2,dev|devops,Kubernetes readiness probes
+78.6,3,1,Implementing startup probes for slow-starting applications,2,2,dev|devops,Kubernetes startup probes
+90.0,1,1,Writing pre-commit hooks for code quality checks,1,2,dev,Git pre-commit hooks
+95.7,1,1,Implementing commit message format validation hooks,1,1,dev,Git commit message validation
+83.6,2,1,Setting up GitHub webhooks for CI/CD integration,2,2,devops,GitHub webhook configuration
+83.6,2,1,Configuring caching for GitHub Actions workflows,2,2,devops,GitHub Action cache configuration
+87.1,2,1,Managing release assets and artifacts in GitHub releases,1,2,devops,GitHub release asset management
+72.9,4,1,Implementing parameterized queries to prevent SQL injection,2,2,dev,Database query parameterization
+72.9,4,1,Implementing input sanitization for security,2,2,dev,Input sanitization implementation
+78.6,3,1,Setting up CSP headers for web applications,2,2,dev|devops,Content Security Policy configuration
+78.6,3,1,"Configuring security headers like HSTS, X-Frame-Options",2,2,dev|devops,HTTP security headers configuration
+83.6,2,1,Implementing proper response codes for rate-limited requests,2,2,dev,API rate limit response handling
+67.9,3,2,Implementing query batching for GraphQL performance,3,3,dev,GraphQL query batching
+67.9,3,2,Using DataLoader pattern to prevent N+1 queries,3,3,dev,GraphQL data loader implementation
+83.6,2,1,Implementing cursor-based or offset pagination for APIs,2,2,dev,REST API pagination implementation
+67.9,3,2,Implementing response caching with proper cache invalidation,3,3,dev,API response caching
+75.0,3,1,Implementing retry logic for failed webhook deliveries,2,3,dev,Webhook retry mechanism
+47.9,4,2,Implementing strategies to prevent database deadlocks,4,4,dev,Database deadlock prevention
+67.9,3,2,Implementing optimistic locking for concurrent updates,3,3,dev,Optimistic locking implementation
+67.9,3,2,Implementing pessimistic locking for critical sections,3,3,dev,Pessimistic locking implementation
+75.0,3,1,Implementing idempotency keys for API requests,2,3,dev,Idempotency key implementation
+60.0,4,2,Configuring service mesh sidecars for traffic management,3,3,devops,Service mesh sidecar configuration
+67.9,3,2,Fine-tuning circuit breaker thresholds and timeouts,3,3,dev|devops,Circuit breaker threshold tuning
+83.6,2,1,Implementing feature toggles with user targeting,2,2,dev,Feature toggle implementation
+67.9,3,2,Setting up A/B test experiments with proper randomization,3,3,dev|product,A/B test experiment setup
+67.9,3,2,Implementing user segmentation for personalization,3,3,dev,User segmentation logic
+47.9,4,2,Implementing event sourcing for domain events,4,4,dev,Event sourcing implementation
+47.9,4,2,Implementing Command Query Responsibility Segregation,4,4,dev,CQRS pattern implementation
+47.9,4,2,Implementing distributed transaction sagas,4,4,dev,Saga pattern implementation
+67.9,3,2,Implementing auto-scaling for message queue consumers,3,3,dev|devops,Message queue consumer scaling
+67.9,3,2,Tuning connection pool sizes and timeouts,3,3,dev|devops,Database connection pooling tuning
+67.9,3,2,Configuring thread pools for optimal performance,3,3,dev,Thread pool configuration
+67.9,3,2,Tuning garbage collection parameters for JVM or .NET,3,3,dev|devops,Garbage collection tuning
+47.9,4,3,Using memory profilers to detect and fix memory leaks,4,4,dev,Memory leak detection and fixing
+67.9,3,2,Using CPU profilers to identify and optimize hot paths,3,3,dev,CPU profiling and optimization
+67.9,3,2,Optimizing network calls and reducing round trips,3,3,dev,Network latency optimization
+60.0,4,2,Implementing distributed locks using Redis or ZooKeeper,3,3,dev,Distributed lock implementation
+67.9,3,2,Configuring service discovery with Consul or Kubernetes DNS,3,3,devops,Service discovery configuration
+60.0,4,2,Automating blue-green deployments with traffic shifting,3,3,devops,Blue-green deployment automation
+60.0,4,2,Automating canary releases with automated rollback,3,3,devops,Canary release automation
